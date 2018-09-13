@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms validation challenge</title>
+  </head>
+  <body style="margin-left:250px;margin-right:250px">
+    <h2 align="center">Registration Form</h2> <br>
+
+    <form class="" action="index.html" method="post">
+      User id: <input type="text" name="userid" value="" min="5" max="12" required formnovalidate>
+    </form> <br>
+    <form class="" action="index.html" method="post">
+      Password: <input type="password" name="password" value="" min="7" max="12" required formnovalidate placeholder="">
+    </form> <br>
+    <form class="" action="index.html" method="post">
+      Full Name: <input type="text" name="Full Name" value="" required pattern="A-Z a-z">
+    </form> <br>
+    <form class="" action="index.html" method="post">
+    Address:  <input type="text" name="" value=""
+    placeholder="(optional)">
+  </form> <br>
+  Country: <select class="dropdown" name="country">
+    <option value="Afghanistan">Afghanistan</option>
+    <option value="Australia">Australia</option>
+    <option value="Germany">Germany</option>
+    <option value="South Africa">South Africa</option>
+    <option value="Zimbabwe">Zimbabwe</option>
+  </select> <br>
+  <br>
+  <form class="" action="index.html" method="post">
+    ZIP Code: <input type="number" name="ZIP Code" value="" pattern="0-9" required>
+  </form> <br>
+  <form class="" action="index.html" method="post">
+    <label for="email">Email address:</label>
+      <input type="email" name="email" value="" pattern="@gmail.com" required>
+  </form> <br>
+  <label for="Gender">Gender:</label>
+    <input type="radio" name="gender" value="male" required> male
+    <input type="radio" name="gender" value="female" required> female <br>
+    <br>
+  <label for="Language">Language:</label>
+    <input type="radio" name="language" value="English" required> English
+    <input type="radio" name="language" value="non-English">non-English <br>
+    <br>
+  About: <textarea name="About" rows="9" cols="85" placeholder="Optional"></textarea>
+  <input type="submit" name="submit" value="submit">
+
+  </body>
+</html>
