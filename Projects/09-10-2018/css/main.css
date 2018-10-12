@@ -1,9 +1,33 @@
+* {
+  box-sizing: border-box; }
+
 body {
-  background-color: #bada55; }
-  body h1 {
-    font-size: 3.125em; }
-  body p {
-    font-size: 2.125em;
-    color: #f0f; }
+  background-color: mistyrose;
+  color: black; }
+
+html {
+  scroll-behavior: smooth; }
+
+a {
+  color: black; }
+  a:hover {
+    color: limegreen;
+    text-decoration: none; }
+  a:active {
+    color: red; }
+  a:visited {
+    color: skyblue; }
+
+.arrow {
+  height: 25%;
+  width: 25%; }
+
+.resort {
+  width: 20%;
+  height: 20%; }
+
+.landscape {
+  width: 15%;
+  height: 20%; }
 
 /*# sourceMappingURL=main.css.map */

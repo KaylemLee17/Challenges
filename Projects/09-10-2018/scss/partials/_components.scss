@@ -1,0 +1,51 @@
+// button 
+
+// @mixin ghost-button($ghost-button-color,$ghost-button-height, $ghost-button-width, $ghost-button-text-align, $ghost-button-display, $ghost-button-border, $ghost-button-text-decoration, $ghost-button-transition) {
+//     border: $ghost-button-border;
+//     border-color: $ghost-button-border;
+//     color: $ghost-button-color;
+//     height: $ghost-button-height;
+//     width: $ghost-button-width;
+//     text-align: $ghost-button-text-align;
+//     text-decoration: $ghost-button-text-decoration;
+//     transition: $ghost-button-transition;
+$color: limegreen;
+$active: red;
+$visited: skyblue;
+$arrow-width: 25%;
+$arrow-height: 25%;
+$resort-width: 20%;
+$resort-height: 20%;
+$landscape-width: 15%;
+$landscape-height: 20%;
+
+
+    a {
+        color: $text-color;
+        &:hover{
+            color: $color;
+            text-decoration: none;
+        }
+        &:active{
+            color: $active;
+        }
+        &:visited{
+            color: $visited;
+        }
+    }
+    
+.arrow {
+    height: $arrow-height;
+    width: $arrow-width;
+}
+
+.resort {
+    width: $resort-width; 
+    height: $resort-height;
+}
+
+.landscape {
+    width: $landscape-width;
+    height: $landscape-height; 
+}
+

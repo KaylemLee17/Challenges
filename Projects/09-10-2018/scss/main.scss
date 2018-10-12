@@ -1,20 +1,7 @@
-// defining varibles for sass
+// golbal imports
 
-$primary-color: #bada55;
-$font-size1: 3.125em;
-$font-size2: 2.125em;
-$text-color: #f0f;
-
-// base styles
-
-body {
-    background-color: $primary-color;
-
-    h1 {
-        font-size: $font-size1;
-    }
-    p {
-        font-size: $font-size2;
-        color: $text-color;
-    }
-}
+@import 'partials/base';
+@import 'partials/components';
+@import 'partials/responsive';
+@import 'partials/variables';
+@import 'partials/layouts';
